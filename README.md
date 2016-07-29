@@ -1,0 +1,2 @@
+# BundleTest
+AssetBundle test
