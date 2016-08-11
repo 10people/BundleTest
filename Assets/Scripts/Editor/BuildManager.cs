@@ -25,6 +25,5 @@ public class BuildManager
         Util.DeleteAll(AssetBundlePath);
 
         BuildPipeline.BuildAssetBundles(AssetBundlePath, buildMap, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
-        //BuildPipeline.BuildAssetBundles(AssetBundlePath, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
     }
 }
